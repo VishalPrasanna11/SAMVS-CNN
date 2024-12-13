@@ -1,6 +1,6 @@
 # SAMVS-CNN: Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs
 
-![image](https://github.com/VishalPrasanna11/SAMVS-CNN/assets/image2.jpeg)
+![image]([https://github.com/VishalPrasanna11/SAMVS-CNN/assets/image2.jpeg](https://github.com/VishalPrasanna11/SAMVS-CNN/blob/main/assets/image1.jpeg))
 
 * [Model overview](https://github.com/VishalPrasanna11/SAMVS-CNN#model-overview)
 * [Requirements](https://github.com/VishalPrasanna11/SAMVS-CNN#requirements)
