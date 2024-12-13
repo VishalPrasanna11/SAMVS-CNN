@@ -1,9 +1,8 @@
 # SAMVS-CNN: Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs
 
-![image](https://github.com/VishalPrasanna11/SAMVS-CNN/assets/93433004/aa0dff4d-9b29-49a2-989a-5b6a12dba5fe)
+![image](https://github.com/VishalPrasanna11/SAMVS-CNN/assets/image2.jpeg)
 
 * [Model overview](https://github.com/VishalPrasanna11/SAMVS-CNN#model-overview)
-* [Updates](https://github.com/VishalPrasanna11/SAMVS-CNN#updates)
 * [Requirements](https://github.com/VishalPrasanna11/SAMVS-CNN#requirements)
 * [Data](https://github.com/VishalPrasanna11/SAMVS-CNN#data)
 * [Pre-trained models](https://github.com/VishalPrasanna11/SAMVS-CNN#pre-trained-models)
@@ -14,11 +13,8 @@
 * [Acknowledgement](https://github.com/VishalPrasanna11/SAMVS-CNN#acknowledgement)
 
 # Model overview
-![image](https://github.com/VishalPrasanna11/SAMVS-CNN/assets/93433004/537b7375-10d7-4d7d-8de0-0b69631ac635) <br/>
+![image](https://github.com/VishalPrasanna11/SAMVS-CNN/assets/image1.jpeg) <br/>
 SAMVS-CNN (Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs) proposes a new method for video summarization. It leverages Convolutional Neural Networks (CNNs) to model both spatial and temporal features in videos, combined with an attention mechanism to select the most relevant parts of the video for summarization.
-
-## Updates
-- **V1.0**: Initial release of SAMVS-CNN model and training scripts.
 
 # Requirements
 |Ubuntu|GPU|CUDA|cuDNN|conda|python|
@@ -39,8 +35,6 @@ cd SAMVS-CNN
 pip install -r requirements.txt
 ```
 
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#requirements)↑
-
 # Data
 Link: [Dataset](https://drive.google.com/drive/folders/1iGfKZxexQfOxyIaOWhfU0P687dJq_KWF?usp=drive_link) <br/>
 H5py format of two benchmark video summarization preprocessed datasets (SumMe, TVSum). <br/>
@@ -58,27 +52,46 @@ You can see the details of both datasets below. <br/>
 [SumMe](https://link.springer.com/chapter/10.1007/978-3-319-10584-0_33) <br/>
 [TVSum](https://openaccess.thecvf.com/content_cvpr_2015/papers/Song_TVSum_Summarizing_Web_2015_CVPR_paper.pdf) <br/>
 
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#data)↑
 
-# Pre-trained models
-Download the pre-trained models from the following links:
-- [SumMe Pre-trained Model](https://drive.google.com/file/d/1gJ7_dZJsyTQC4U4GFlLfURhR_0owF_5k/view?usp=sharing)
-- [TVSum Pre-trained Model](https://drive.google.com/file/d/1GytXYOAHZj_qfz9Gx-TfAlJlZqEK9b9f/view?usp=sharing)
+Here’s the requested section in the README format:
 
-Unzip the models and place them in the `models/` directory.
+```markdown
+## Pre-trained Models
 
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#pre-trained-models)↑
+You can download our pre-trained weights of CSTA. There are 5 weights for the SumMe dataset and the other 5 for the TVSum dataset (1 weight for each split). As shown in the paper, we tested everything 10 times (without fixation of seed) but only uploaded a single model as a representative for your convenience. The uploaded weight is acquired when the seed is `123456`, and the result is almost identical to our paper.
+
+### Directory Structure
+
+Please organize the weights as follows:
+
+```
+├── weights
+│   ├── SumMe
+│   │   ├── split1.pt
+│   │   ├── split2.pt
+│   │   ├── split3.pt
+│   │   ├── split4.pt
+│   │   ├── split5.pt
+│   ├── TVSum
+│   │   ├── split1.pt
+│   │   ├── split2.pt
+│   │   ├── split3.pt
+│   │   ├── split4.pt
+│   │   ├── split5.pt
+```
+
+- **SumMe Weights**: Put 5 weights of the SumMe dataset in `weights/SumMe`
+- **TVSum Weights**: Put 5 weights of the TVSum dataset in `weights/TVSum`
+```
+
+Let me know if you'd like to add anything else!
 
 # Training
 To train the model, run the following command:
 
 ```bash
-python train.py --dataset SumMe --epochs 30 --batch_size 32
+python train.py
 ```
-
-Replace `--dataset` with either `SumMe` or `TVSum` based on your chosen dataset. You can also modify the number of epochs and batch size as per your requirements.
-
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#training)↑
 
 # Inference
 Once the model is trained, you can run inference on new videos. To do this, use the following command:
@@ -89,7 +102,6 @@ python inference.py --model models/SumMe_model.pth --video_path /path/to/video.m
 
 Make sure to provide the correct path to the trained model and input video.
 
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#inference)↑
 
 # Generate summary videos
 To generate a summary video using the trained model, use the following command:
@@ -100,25 +112,32 @@ python generate_summary.py --model models/SumMe_model.pth --video_path /path/to/
 
 This will generate a summarized version of the input video and save it to the specified output directory.
 
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#generate-summary-videos)↑
+## Contributors
+
+We would like to acknowledge the following contributors to the project:
+
+- **Vishal Prasanna** - Graduate Student, Northeastern University, Email: [prasanna.vi@northeastern.edu](mailto:prasanna.vi@northeastern.edu)
+- **Sai Srunith Silvery** - Graduate Student, Northeastern University, Contributor, Email: [silvery.s@northeastern.edu](mailto:silvery.s@northeastern.edu)
+- **Chethana Benny** - Graduate Student, Northeastern University, Contributor, Email: [benny.c@northeastern.edu](mailto:benny.c@northeastern.edu)
+
+Special thanks to all contributors for their invaluable input to the success of this project.
 
 # Citation
-If you use this code in your research, please cite the following paper:
 
 ```
-@article{VishalPrasanna11,
-  title={SAMVS-CNN: Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs},
-  author={Vishal Prasanna},
-  journal={GitHub Repository},
-  year={2024},
-  url={https://github.com/VishalPrasanna11/SAMVS-CNN}
+@inproceedings{son2024csta,
+  title={CSTA: CNN-based Spatiotemporal Attention for Video Summarization},
+  author={Son, Jaewon and Park, Jaehun and Kim, Kwangsu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={18847--18856},
+  year={2024}
 }
+
 ```
+# Acknowledgements
 
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#citation)↑
+We would like to express our gratitude to the video summarization research community for their contributions to the field. This work was made possible by the publicly available datasets provided by various researchers and organizations.
 
-# Acknowledgement
-We thank the authors of the SumMe and TVSum datasets for their contribution to the video summarization research community. This work was made possible by their publicly available datasets.
+We also thank **CSTTA**, particularly the authors Jaewon Son, Jaehun Park, and Kwangsu Kim, for their support and collaboration, which greatly contributed to the development and success of this project. Their work on "CSTA: CNN-based Spatiotemporal Attention for Video Summarization" has been invaluable in shaping our approach.
 
-[Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#acknowledgement)↑
 ```
