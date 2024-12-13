@@ -1,6 +1,6 @@
 # SAMVS-CNN: Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs
 
-![image]<img width="1073" alt="image" src="https://github.com/user-attachments/assets/64f7cdaf-bd36-4a28-a5d8-5c62ac80983a" />
+<img width="1073" alt="image" src="https://github.com/user-attachments/assets/64f7cdaf-bd36-4a28-a5d8-5c62ac80983a" />
 
 
 * [Model overview](https://github.com/VishalPrasanna11/SAMVS-CNN#model-overview)
@@ -14,7 +14,7 @@
 * [Acknowledgement](https://github.com/VishalPrasanna11/SAMVS-CNN#acknowledgement)
 
 # Model overview
-![image]<img width="1054" alt="image" src="https://github.com/user-attachments/assets/a7a51ee4-3295-46cd-80db-989a81faab4f" />
+<img width="1054" alt="image" src="https://github.com/user-attachments/assets/a7a51ee4-3295-46cd-80db-989a81faab4f" />
  <br/>
 SAMVS-CNN (Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs) proposes a new method for video summarization. It leverages Convolutional Neural Networks (CNNs) to model both spatial and temporal features in videos, combined with an attention mechanism to select the most relevant parts of the video for summarization.
 
