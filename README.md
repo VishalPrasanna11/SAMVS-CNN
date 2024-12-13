@@ -66,24 +66,22 @@ You can download our pre-trained weights of CSTA. There are 5 weights for the Su
 
 Please organize the weights as follows:
 
-```
-├── weights
-│   ├── SumMe
-│   │   ├── split1.pt
-│   │   ├── split2.pt
-│   │   ├── split3.pt
-│   │   ├── split4.pt
-│   │   ├── split5.pt
-│   ├── TVSum
-│   │   ├── split1.pt
-│   │   ├── split2.pt
-│   │   ├── split3.pt
-│   │   ├── split4.pt
-│   │   ├── split5.pt
-```
+weights/
+├── SumMe/
+│   ├── split1.pt
+│   ├── split2.pt
+│   ├── split3.pt
+│   ├── split4.pt
+│   └── split5.pt
+└── TVSum/
+    ├── split1.pt
+    ├── split2.pt
+    ├── split3.pt
+    ├── split4.pt
+    └── split5.pt
 
-- **SumMe Weights**: Put 5 weights of the SumMe dataset in `weights/SumMe`
-- **TVSum Weights**: Put 5 weights of the TVSum dataset in `weights/TVSum`
+- SumMe Weights**: Put 5 weights of the SumMe dataset in `weights/SumMe`
+- VSum Weights**: Put 5 weights of the TVSum dataset in `weights/TVSum`
 ```
 
 Let me know if you'd like to add anything else!
@@ -141,5 +139,3 @@ Special thanks to all contributors for their invaluable input to the success of 
 We would like to express our gratitude to the video summarization research community for their contributions to the field. This work was made possible by the publicly available datasets provided by various researchers and organizations.
 
 We also thank **CSTTA**, particularly the authors Jaewon Son, Jaehun Park, and Kwangsu Kim, for their support and collaboration, which greatly contributed to the development and success of this project. Their work on "CSTA: CNN-based Spatiotemporal Attention for Video Summarization" has been invaluable in shaping our approach.
-
-```
