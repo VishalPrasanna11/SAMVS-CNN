@@ -60,7 +60,7 @@ Here’s the requested section in the README format:
 ```markdown
 ## Pre-trained Models
 
-You can download our pre-trained weights of CSTA. There are 5 weights for the SumMe dataset and the other 5 for the TVSum dataset (1 weight for each split). As shown in the paper, we tested everything 10 times (without fixation of seed) but only uploaded a single model as a representative for your convenience. The uploaded weight is acquired when the seed is `123456`, and the result is almost identical to our paper.
+You can download our pre-trained weights of SAMVS-CNN. There are 5 weights for the SumMe dataset and the other 5 for the TVSum dataset (1 weight for each split). As shown in the paper, we tested everything 10 times (without fixation of seed) but only uploaded a single model as a representative for your convenience. The uploaded weight is acquired when the seed is `123456`, and the result is almost identical to our paper.
 
 ### Directory Structure
 
