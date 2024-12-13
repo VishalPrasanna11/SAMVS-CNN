@@ -138,4 +138,4 @@ Special thanks to all contributors for their invaluable input to the success of 
 
 We would like to express our gratitude to the video summarization research community for their contributions to the field. This work was made possible by the publicly available datasets provided by various researchers and organizations.
 
-We also thank **CSTTA**, particularly the authors Jaewon Son, Jaehun Park, and Kwangsu Kim, for their support and collaboration, which greatly contributed to the development and success of this project. Their work on "CSTA: CNN-based Spatiotemporal Attention for Video Summarization" has been invaluable in shaping our approach.
+We also thank **CSTA**, particularly the authors Jaewon Son, Jaehun Park, and Kwangsu Kim, for their support and collaboration, which greatly contributed to the development and success of this project. Their work on "CSTA: CNN-based Spatiotemporal Attention for Video Summarization" has been invaluable in shaping our approach.
