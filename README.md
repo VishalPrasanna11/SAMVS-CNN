@@ -1,4 +1,3 @@
-```markdown
 # SAMVS-CNN: Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs
 
 ![image](https://github.com/VishalPrasanna11/SAMVS-CNN/assets/93433004/aa0dff4d-9b29-49a2-989a-5b6a12dba5fe)
