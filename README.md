@@ -122,5 +122,3 @@ We thank the authors of the SumMe and TVSum datasets for their contribution to t
 
 [Back to top](https://github.com/VishalPrasanna11/SAMVS-CNN#acknowledgement)↑
 ```
-
-This should give you a comprehensive and well-structured README file for your project.
