@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 # Data
-Link: [Dataset](https://drive.google.com/drive/folders/1iGfKZxexQfOxyIaOWhfU0P687dJq_KWF?usp=drive_link) <br/>
+Link: [Dataset](https://drive.google.com/drive/folders/1uxsJdGBUJrwBKOQztCMR8XIT8E2Gm_c9) <br/>
 H5py format of two benchmark video summarization preprocessed datasets (SumMe, TVSum). <br/>
 You should download datasets and put them in ```data/``` directory. <br/>
 The structure of the directory must be like below. <br/>
@@ -65,7 +65,7 @@ You can download our pre-trained weights of SAMVS-CNN. There are 5 weights for t
 ### Directory Structure
 
 Please organize the weights as follows:
-
+Link: [Weights](https://drive.google.com/drive/folders/1c_7o24OrvxlIfDH8hhk5VIGALAY9e5KQ) <br/>
 weights/
 ├── SumMe/
 │   ├── split1.pt
