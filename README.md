@@ -1,5 +1,3 @@
-Here’s the complete README code with all sections combined:
-
 ```markdown
 # SAMVS-CNN: Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs
 
