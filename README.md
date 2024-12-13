@@ -55,7 +55,7 @@ You can see the details of both datasets below. <br/>
 [TVSum](https://openaccess.thecvf.com/content_cvpr_2015/papers/Song_TVSum_Summarizing_Web_2015_CVPR_paper.pdf) <br/>
 
 
-Here’s the requested section in the README format:
+Link: [Weights](https://drive.google.com/drive/folders/1c_7o24OrvxlIfDH8hhk5VIGALAY9e5KQ) <br/>
 
 ```markdown
 ## Pre-trained Models
@@ -65,7 +65,6 @@ You can download our pre-trained weights of SAMVS-CNN. There are 5 weights for t
 ### Directory Structure
 
 Please organize the weights as follows:
-Link: [Weights](https://drive.google.com/drive/folders/1c_7o24OrvxlIfDH8hhk5VIGALAY9e5KQ) <br/>
 weights/
 ├── SumMe/
 │   ├── split1.pt
