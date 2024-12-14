@@ -30,8 +30,14 @@ SAMVS-CNN (Spatiotemporal-Attention-Modeling-for-Video-Summarization-Using-CNNs)
 To set up the environment, run the following commands:
 
 ```bash
-conda create -n CSTA python=3.8.5
-conda activate CSTA
+python -m venv venv
+
+On Windows
+venv\Scripts\activate
+
+On Mac
+source venv/bin/activate
+
 git clone https://github.com/VishalPrasanna11/SAMVS-CNN.git
 cd SAMVS-CNN
 pip install -r requirements.txt
