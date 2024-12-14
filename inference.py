@@ -9,7 +9,7 @@ from generate_summary import generate_summary
 from model import set_model
 from utils import report_params,get_gt
 
-# Load configurations
+# Load configurations jnjjn
 config = get_config()
 
 # Print the number of parameters

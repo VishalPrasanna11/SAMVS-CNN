@@ -16,7 +16,7 @@ def load_split(dataset):
             outputs.append((train_videos,test_videos))
     return outputs
 
-# Create input,ground truth pair
+# Create input,ground truth pair model
 def load_h5(videos,data_path,dataset_name):
     features = []
     gtscores = []
@@ -70,3 +70,4 @@ def create_dataloader(dataset):
         test_loader = DataLoader(test_dataset,batch_size=1,shuffle=False,collate_fn=collate_fn)
         loaders.append((train_loader,test_loader))
     return loaders
+
