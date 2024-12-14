@@ -102,7 +102,7 @@ python train.py
 Once the model is trained, you can run inference on new videos. To do this, use the following command:
 
 ```bash
-python inference.py --model models/SumMe_model.pth --video_path /path/to/video.mp4 --output_path /path/to/output/
+python inference.py
 ```
 
 Make sure to provide the correct path to the trained model and input video.
